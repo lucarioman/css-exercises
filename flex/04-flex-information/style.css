@@ -3,13 +3,16 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,19 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.plants {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container, .text {
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 52px;
+  text-align: center;
+
 }
